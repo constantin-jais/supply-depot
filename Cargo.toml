@@ -8,3 +8,7 @@ repository = "https://github.com/constantin-jais/gear-depot"
 description = "Sovereign registry proxy/cache and supply-chain policy POC backed by Starmetal."
 
 [dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+time = { version = "0.3", features = ["parsing"] }
